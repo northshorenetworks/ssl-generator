@@ -1,0 +1,25 @@
+{
+  "name": "ssl-generator",
+  "version": "0.0.1",
+  "description": "Generates SSL certificates from a CA certificate & key",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "ssl",
+    "certificate",
+    "generator"
+  ],
+  "repository": "northshorenetworks/ssl-generator",
+  "author": "Adam Snodgrass <overra@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.5.4",
+    "lodash.defaults": "^3.1.1",
+    "pem": "^1.7.2"
+  },
+  "devDependencies": {
+    "redis": "^0.12.1"
+  }
+}
