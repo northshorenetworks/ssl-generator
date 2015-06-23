@@ -1,10 +1,11 @@
 var expect = require('expect.js');
+var app = require('../index.js');
 
 // Begin Unit Tests
 describe("Sample Test", function () {
   describe("I don't know", function () {
      it('should return blah', function (done) {
-          console.log(server);
+          console.log(app);
           done();
      });
    });
